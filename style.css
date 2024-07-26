@@ -1,0 +1,55 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+
+body > div {
+    display: inherit;
+    flex-direction: inherit;
+    height: 30vh;
+    
+}
+
+h1 {
+    margin: auto;
+    width:fit-content;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.button {
+    border: 2px black;
+    border-style:outset;
+    width: fit-content;
+    margin: auto;
+    padding: 8px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    scale: 1;
+}
+
+
+.button:hover {
+    cursor: pointer;
+}
+
+span {
+    color:deepskyblue;
+}
+
+.button:active {
+        transform: scale(0.8);
+}
